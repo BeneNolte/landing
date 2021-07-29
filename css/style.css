@@ -1,0 +1,76 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+@import url("components/banner.css");
+@import url("components/cards.css");
+
+/* Custom design below! */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    /* display: block; */
+    margin: 0px;
+}
+
+h1, h4 {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+p {
+  font-family: Montserrat;
+  font-weight: light;
+}
+
+.container {
+    width: 850px;
+    height: 400px;
+    margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  margin-top: 100px;
+  text-align: center;
+  padding: 60px;
+  background-color: #2c2b2b;
+}
+
+.footer p {
+  margin-top: 20px;
+  color: #6B6C6C;
+}
+
+/* .fa-twitter:before,
+.fa-instagram:before,
+.fa-github:before,
+.fa-facebook-f:before {
+  color: #7652F6;
+  width: 50px;
+  height: 50px;
+} */
+
+.footer a {
+  font-size: 40px;
+  color: #7652F6;
+  opacity: 0.6;
+}
+
+.footer a:hover {
+  opacity: 1;
+}
+
+.fa-heart:before {
+  content: "\f004";
+  color: red;
+}

@@ -1,0 +1,68 @@
+.container{
+  text-align: center;
+  width: 850px;
+}
+
+.container > h1 {
+  margin: 40px 0px;
+}
+
+.card-adjust {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 220px;
+  height: 300px;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 1px rgb(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  border-radius: 12px;
+}
+
+.card > h4 {
+  margin-top: 40px;
+  font-size: 20px;
+  color: #7652F6;
+}
+
+.card > p {
+  margin-top: 20px;
+  font-size: 15px;
+  opacity: .7;
+}
+
+.profile-image {
+  background-image: url("../../images/profile.svg");
+  background-size: cover;
+  height: 120px;
+  width: 150px;
+  z-index: 1;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+
+.value-image {
+  background-image: url("../../images/value.svg");
+  background-size: cover;
+  object-fit: cover;
+  height: 120px;
+  width: 190px;
+  z-index: 1;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+.control-image {
+  background-image: url("../../images/control.svg");
+  background-size: cover;
+  height: 120px;
+  width: 150px;
+  z-index: 1;
+  margin-left: 35px;
+  margin-top: 30px;
+  background-position: right 35% bottom -3%;;
+}
